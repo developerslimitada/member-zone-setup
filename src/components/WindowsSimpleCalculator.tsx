@@ -257,7 +257,7 @@ export default function WindowsSimpleCalculator() {
 
   return (
     <section className="w-full max-w-sm">
-      <div className="rounded-xl border bg-card shadow-sm">
+      <div className="rounded-xl border bg-foreground text-background shadow-sm">
         <header className="border-b px-4 py-3">
           <div className="text-xs text-muted-foreground">Calculadora</div>
           <div
