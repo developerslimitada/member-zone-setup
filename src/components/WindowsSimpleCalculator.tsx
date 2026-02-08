@@ -278,7 +278,7 @@ export default function WindowsSimpleCalculator() {
               type="button"
               onClick={() => onPress(b.label, b.kind)}
               className={
-                "h-12 rounded-lg border bg-background text-sm font-medium transition " +
+                "h-12 rounded-lg border bg-background text-foreground text-sm font-medium transition " +
                 "hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring " +
                 "active:translate-y-[1px] active:shadow-none" +
                 (b.wide ? " col-span-2" : "")
